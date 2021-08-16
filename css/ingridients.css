@@ -1,0 +1,144 @@
+@font-face {
+    font-family:Mint-Grotesk-Trial;
+    src: url(../fonts/MintGroteskRegularTrial.otf);
+}
+@font-face {
+    font-family: Mint-Grotest-bold;
+    src: url(../fonts/MintGroteskExtraBoldTrial.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Mint-Grotesk-Trial;
+    overflow-x: hidden;
+    
+    
+}
+
+@media screen and (max-width: 700px){
+    .ingridients {
+        padding: 30px 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+      .ingridients__nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      .ingridients__nav a {
+        text-decoration: none;
+      }
+      .ingridients__nav a .ri-arrow-left-fill {
+        color: #FF4242;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+      .ingridients__nav h1 {
+        font-size: 25px;
+      }
+      .ingridients__nav .ri-share-fill {
+        color: white;
+        background: #FF4242;
+        padding: 5px;
+        font-size: 18px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        border-radius: 50px;
+      }
+      .ingridients__img {
+        margin: 20px 0px;
+        background-image: url("../img/image6.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 205px;
+        border-radius: 10px;
+      }
+      .ingridients__header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding-bottom: 26px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      .ingridients__header h3 {
+        text-align: left;
+        width: 70%;
+        font-weight: 700;
+      }
+      .ingridients__header i {
+        float: right;
+        color: #FF4242;
+        font-size: 30px;
+        filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+        width: 30%;
+        text-align: right;
+      }
+      .ingridients__meal-description {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 44px;
+        text-align: left;
+      }
+      .ingridients__title {
+        font-size: 20px;
+        padding-bottom: 21px;
+      }
+      .ingridients__list {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+      }
+      .ingridients__list__item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: #F8F7F8;
+        margin: 15px 0px;
+        margin-bottom: 17px;
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+      .ingridients__list__item h6 {
+        width: 60%;
+        font-size: 14px;
+        color: #080613F7;
+        margin: 0px;
+      }
+      .ingridients__list__item p {
+        width: 40%;
+        font-size: 11px;
+        color: #080613AC;
+        text-align: right;
+      }
+      .ingridients__procedure h5 {
+        font-size: 16px;
+        margin-top: 57px;
+        margin-bottom: 15px;
+        color: #080613F7;
+      }
+      .ingridients__procedure p {
+        font-size: 12px;
+        line-height: 16px;
+        color: #080613AC;
+      }
+}
